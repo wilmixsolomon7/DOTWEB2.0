@@ -71,7 +71,7 @@ SYNTAX B of  DOTWEB2.0
 }
 
 
-Note:  This   is  used to   create  DOTWEB2.0  files....
+Note:  This   is  used to   create  DOTWEB2.0 exe  files....
 =====
 
  
