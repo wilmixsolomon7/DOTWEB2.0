@@ -3,7 +3,12 @@
 
  DOTWEB2.0  P.L  is  invented  by  wilmix  jemin  j   @  2017 in  JDollar(JWEB)...   DOTWEB2.0  P.L   is   a  twin  brother  for  JDollar(JWEB)  and    a  next  Advanced   Technology  like  JDollar(JWEB)...
 
+DOTWEB2.0 -A Modules
+====================
 
+DOTWEB2.0 -A modules are from DOTWEB2.0Part1 to DOTWEB2.0Part16
+
+invented by wilmix jemin j @ 2017
 
 
 SYNTAX A of  DOTWEB2.0
