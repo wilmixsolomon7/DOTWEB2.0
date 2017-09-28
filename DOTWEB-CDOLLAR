@@ -1,0 +1,2508 @@
+CDOLLAR-DOTWEB2.0-MODULE-1
+==========================
+
+CDOLLAR-DOTWEB2.0   is  used    in  Linux platform.
+
+How CDOLLAR-DOTWEB2.0 Technology Works?
+––––––––––––––––––––––––––––––––-
+At first .cdollar or .c$ is compiled by Cdollarc compiler
+And it translate to .C$ file with pure oops concepts.
+Cdollarv.4 translator uses CDC friend compiler Which compiles
+the Cdollar program.
+After that Cdollarv.4 translates to .wl class files and use
+CDRUN filename.wl automatically to run the Program.
+So converting the bytes codes in .wl class file makes the progam
+to run faster than other compilers..
+
+
+
+
+==================================================================================
+(CDOLLAR-DOTWEB2.0) = C D O L L A R -PROGRAMMING-TUTORIAL
+--------------------------------------------------
+Written By
+wilmix jemin j
+==================================================================================
+UNIT -1
+--------
+INTRODUCTION
+------------
+Why CDollar?
+-------------
+CDollar is used for creating libraries ; CDollar is formed in C/C++
+in year 2004.
+CDollar is modified in java technology in year 2013, 2015,2016.
+CDollar is the combination of JAVA , C/C++, and Advanced OOPS.
+it will only accept the shortest attractive syntax.
+CDollar first name is "OLIVE Technology" which represents OLIVE TREE . Olive Technology
+is renamed as CDOLLAR.
+Note: a) The Meaning of CDollar is combination of C++ and JAVA OOPS
+concepts.
+b) CDollar version 1 and CDollar Version 2 is not good
+c) CDollar version 3 contains a build compiler .cdollar.
+where .cdollar has the features like java and C/C++.
+SYNTAX-1 (used only for WEB - .cdollar)
+------------------------------------------------------------
+<CDollar>
+<IMPORT>
+<%
+<! CDollar-.cdolar OOPS Logic and main functions !>
+%>
+?>
+
+PRINT STATEMENT OF CDOLLAR .cdollar
+------------------------------------------------
+Print Statement of CDollar - .cdollar
+-------------------------------------------------
+Print.Println(String ,<DataTypes>);
+where DataTypes is {int,char,String,Double,float)
+This will print space followed by concatenation of String and
+datatypes input when you apply \n.
+This solves everytime when user wish to concat a String with
+datatype every time.
+simillary
+Print.printf(String ,<DataTypes>);
+This will be same to above Print statement but
+it will not print space when you apply \n also.
+
+Program-1.cdollar
+-----------------
+<CDollar>
+<IMPORT>
+<%
+class Program1
+{
+public  Shared void  LIB( )
+{
+int i;
+Print.Println("\nList of Technologies in year ","2016 ");
+LL1 list = <NEW> LL1();
+String i1="weew";
+Print.Println("wilmix",i1);
+Print.Println("Hiram is going","today");
+Print.printf("Hiram Age is =","45 ");
+Print.Println("Hiram is working ","in Abc Bank\n");
+Print.Println(" \njemin","is going");
+<TS> ar2 = <NEW> <TS>();
+ar2.add("100");
+ar2.add("22");
+Print.printf("jeminjhjhjh",ar2.StringConvert());
+Print.Println("no: 2/782 ,ds street,california-2322",ar2.StringConvert());
+}
+}
+%>
+?>
+Notice what happens?
+Compile and run the CDollar Program in bash shell using the
+command
+CDollarc Program1.cdollar
+Output:
+.
+*************************************************************************************
+********
+Sun Sep 20 14:38:19 GMT+00:00 2015*CDollar: List of Technologies in year 2016 0 C 1
+CDOLLAR 2 GDOLLAR 3 CHDOLLAR 4 JDOLLAR 5 JSTAR 6 JSAUCER
+wilmix weewHiram is going todayHiram Age is = 45 Hiram is working in Abc Bank jemin is
+goingjeminjhjhjh [100, 22]
+no: 2/782 ,ds street,california-2322 [100, 22]
+Error: <table bgcolor=green>OUTPUT=Compling Cdollar files
+CDOLLAR VERSION 1.3 Copy Right 2015 all rights reserved
+Created by Jemin Information Technology ,wilmix jemin Bad token: < on row 2 and column 1
+Process failed during translation. no Errors in Cdollar program
+Note:
+----
+To Compile and run the CDollar Program in bash shell using the
+command
+CDollarc filename.cdollar
+or
+CDRUN <filename.wl> to see the Output or Errors of Cdollar.
+Output:
+------
+> Cdollar EVENORODD
+
+Check Whether the Given No is ODD or EVEN : ?
+5
+ODD No is 5
+WELDONE !
+Note: Read.sreadln() Function is used to read data from the
+console.....
+-------
+FAQS:
+--------
+Why CDollar (.C$) is simillar to JAVA OOPS concepts?
+Since in futhure JSAUCER want to interact with
+MYBATICS
+Framework.
+
+How CDollar is formed ? What are its Advantages Over Native language JAVA Programming?
+--------------------------------------------------------------------------------------------------------------
+CDollar is formed in C++ OOPS concepts..
+JAVA borrowed C++ OOPS concepts but
+CDollar borrowed C++ OOPS concepts and JAVA oops and it has
+Attractive syntax ; Plus in-build functions
+for Program and it is responsible for creating
+libraries (.wl). JAVA has attained the Programming
+standards, But CDollar attains combination of C Technology
+and JAVA Technology advantages.
+CDollar Generates .wl class files
+but JAVA Generated .class files.
+Cdollar Has Advanced OOPS than JAVA 1.8.
+
+
+
+
+
+
+==================================================================================
+UNIT-2 :CDOLLAR ADVANCED CONCEPTS
+==================================================================================
+UNIT-2 :CDOLLAR ADVANCED CONCEPTS
+-------------------------------------
+ADVANCED OOPS CONCEPTS
+--------------------------------------------
+Example -3:
+------------
+Write a Program to print two String and add String 100 to
+ArrayList.
+and create a DataStructure for Linked List and Technologies for year
+2016
+is C, CDOLLAR ,GDOLLAR,CHDOLLAR, JDOLLAR,JSTAR, JSAUCER.
+And add Those in Userdefined LinkedList. But you should not use
+extends
+keyword to provide inheritance. but you should call the method of
+other program without extending the class.
+IS it Possible? IN JAVA?
+NO
+IS it Possible ? in CDollar?
+Yes.
+Program :abc.cdollar
+-------------------
+<CDollar>
+<IMPORT>
+<%
+class LL1
+{
+private LL1 nextNode = null;
+private String datum = null;
+public LL1()
+{
+LL1 list = <NEW> LL1("0 C");
+list.add("1 CDOLLAR");
+list.add("2 GDOLLAR");
+list.add("3 CHDOLLAR");
+list.add("4 JDOLLAR");
+list.add("5 JSTAR");
+list.add("6 JSAUCER");
+for (int i = 0; i NOT= list.size(); i = i + 1)
+{
+Print.Println("",list.get(i).StringConvert());
+}
+}
+public LL1(String datum)
+{
+<SUPER>();
+<IS>.datum = datum;
+}
+public void add(String datum)
+{
+if (nextNode NOT= null)
+{
+nextNode.add(datum);
+return;
+}
+nextNode = <NEW> LL1(datum);
+}
+public String get(int i)
+{
+if (i == 0)
+return datum;
+return nextNode.get(i - 1);
+}
+public int size()
+{
+if (nextNode == null)
+return 1;
+return nextNode.size() + 1;
+}
+}
+class abc
+{
+public  Shared void  LIB( )
+{
+int i;
+Print.Println("\nList of Technologies in year ","2016 ");
+LL1 list = <NEW> LL1();
+String i1="weew";
+Print.Println("wilmix",i1);
+Print.Println(" \njemin","is going");
+<AList> ar2 = <NEW> <AList>();
+ar2.add("100");
+Main m =<NEW> Main();
+m.main();
+Print.Println("jeminjhjhjh",ar2.StringConvert());
+}
+}
+%>
+?>
+Note : LinkedList1 is the unwanted keyword
+-------
+so cdollar did not accept it.
+What will be the Output when you run using ?
+>CDollarc abc.cdollar
+Output:
+------
+Compiling ....
+*************************************************************************************
+********
+Sun Sep 20 14:46:18 GMT+00:00 2015*CDollar: List of Technologies in year 2016
+0 C 1 CDOLLAR 2 GDOLLAR 3 CHDOLLAR 4 JDOLLAR 5 JSTAR 6 JSAUCERwilmix weew jemin is goingList
+of Technologies in year 2016
+0 C 1 CDOLLAR 2 GDOLLAR 3 CHDOLLAR 4 JDOLLAR 5 JSTAR 6 JSAUCERjeminjhjhjh [100, 22]
+Error: <table bgcolor=green>OUTPUT=Compling Cdollar filesCDOLLAR VERSION 1.3 Copy
+Right 2015 all rights reserved
+Created by Jemin Information Technology ,wilmix jemin Bad token: < on row 2 and column 1
+Process failed during translation. no Errors in Cdollar program
+Example-4:
+-----------
+Write a Program to add 1 lakh Natural integers using arraylist
+and add the arraylist objects to CDollarArrays
+what happens when you compile and execute the given the below program?
+SYNTAX for CDollarArrays:
+--------------------------------------
+CDollarArrays list1 = new CDollarArrays(string);
+to add any collection objects to array use
+add (String) functions and to Display those
+objects use list1.Display();
+Any class that use CDollarArrays you should extends Array in class...
+Program2:
+---------
+<CDollar>
+<IMPORT>
+<%
+public class Program2 <--- CDollarArrays
+{
+public  Shared void  LIB( )
+
+{
+<AList> ar= <NEW> <AList> ();
+for (int i=0;i<=100000;i++)
+ar.add(i);
+CDollarArrays list1 = <NEW> CDollarArrays("ANIMALS ");
+list1.add("1 horse");
+list1.add("2 pig");
+list1.add("3 cow");
+list1.add("4 goat");
+list1.add("5 chicken");
+list1.add("6 ostrich");
+list1.add(ar.StringConvert());
+list1.Display();
+}
+}
+%>
+?>
+What will be the Output when you run using ?
+CDollarc Program2.cdollar
+Ans: It store other collection objects and stores huge amount of data.
+
+TREEOFARRAY
+---------------------
+Write a Program to add 1 lakh Natural integers incremented by 10 using arraylist
+and add the arraylist objects to TreeOfARRAY
+what happens when you compile and execute the given the below program?
+
+SYNTAX for TreeofArray:
+--------------------------------------
+TreeArray <name> = new TreeArray(String);
+<name>.add(elements);
+where elements may be string or collections....
+Program: Tree.cdollar
+--------------
+<CDollar>
+<IMPORT>
+<%
+public class Tree
+{
+public  Shared void  LIB( )
+{
+TreeArray root = <NEW> TreeArray("SNO");
+<AList> ar= <NEW> <AList>();
+for (int i=0;i<=100000;i+=10)
+ar.add(i);
+for (int i = 0; i NOT= 10; i = i + 1)
+{
+root.add("item "+ ++ i);
+}
+root.add(ar.StringConvert());
+//print the tree's size and contents
+Print.Println( "\n\n",root.size() );
+root.printTree();
+}
+}
+%>
+?>
+What will be the Output when you run using ?
+CDollarc Tree.cdollar
+Ans: It store other collection objects and stores huge amount of data
+in tree format.
+LISTOFARRAY
+---------------------
+Write a Program to add 1000 Natural integers using arraylist
+and add the arraylist objects to LISTOfARRAY
+what happens when you compile and execute the given the below program?
+SYNTAX for List of Array:
+--------------------------------------
+LArray <name> = new LArray(string);
+<name>.add(elements);
+The elements may be string or collection elements.
+Program : LArray1s.cdollar
+---------------------------
+<CDollar>
+<IMPORT>
+<%
+public class LArray1s
+{
+public  Shared void  LIB( )
+{
+LArray root = <NEW> LArray("root");
+<AList> ar= <NEW> <AList>();
+for (int i=0;i<=1000;i++)
+ar.add(i);
+root.add("wilmix");
+root.add("jemin");
+root.add("shalom");
+root.add("1010");
+root.add("101");
+root.add("201");
+root.add(ar.StringConvert());
+root.add("100000000");
+//print the tree's size and contents
+Print.Println( "\n\n",root.size() );
+root.printTree();
+}
+}
+%>
+?>
+What will be the Output when you run using ?
+ CDollarc LArray1s.cdollar
+Ans: It store other collection objects and stores huge amount of data
+in tree format.
+and sorts the elements in descending order and allow to insert the
+element in to middle
+of list. This means act like combination of Set and Linked List , and Tree....
+
+
+
+
+
+
+==================================================================================
+
+UNIT 3: MISC ,Fundametals of CDollar, Keywords,Operators,loops,Datatypes,Inner class, OOPS
+concepts of Cdollar ,and collections
+==================================================================================
+
+CDOLLAR OUTPUT STATEMENT
+----------------------------------------------
+CDollar.out.println(" "+" ");
+It is used for printing the output followed by line.
+We had to add + operator to concatenate the outputs.....
+String
+------------
+String is represented by <Str> notation.
+a) <Str> <strname> = new <Str> ();
+This statement is used to create an object...
+b) <Str> <strname> = value;
+But this Statement will not create an object...
+but it stores the value...
+the differences between
+a) if ( s1==s2)
+== means it is used to compare the values...
+b) if s1.EQ(s2)
+EQ means EQUALS is used to compare objects..
+
+CDOLLAR COLLECTIONS
+------------------------------------
+Why we use collections in our software development?
+Because for various projects we will use various kinds of
+datastructures that's why collections are focused.
+
+Q: What are the Important concepts of Software Development?
+
+ARRAYLIST
+----------------
+SYNTAX:
+------------
+<AList> <Type> arraylistobjectname = new <AList><Type>
+But type may be Object, int, Double,String,etc.
+Why we focus Arraylist ?
+Since ArrayList involves Powerful insertion and search mechanism when
+compared to array.
+So we focus it.
+Some built in functions available in ArrayList they are add and remove.
+syntax : arraylistobjectname.add(<datatype>);
+syntax: arraylistobjectname.remove(<datatype>);
+How did you iterate the ArrayList?
+<WR> syntax means Iterator; this is the shortest syntax of Iterator.
+<WR> iteratorname = <CollectionOBJECT>.record();
+
+LinkedList
+----------
+<LList> <Type> arraylistobjectname <NEW> <LList><Type>
+But type may be Object, int, Double,String,etc.
+As according to collection concepts , built in functions are Designed for
+LinkedList they are add and remove.
+syntax : Linkedlistobjectname.add(<datatype>);
+syntax: Linkedlistobjectname.remove(<datatype>);
+syntax : Linkedlistobjectname.addFirst(<datatype>);
+syntax: Linkedlistobjectname.removeFirst(<datatype>);
+syntax : Linkedlistobjectname.addLast(<datatype>);
+syntax: Linkedlistobjectname.removeLast(<datatype>);
+Actually when you study about Datastructures of LinkedList
+and here we Designed the LinkedList using the LinkedList code
+as mentioned in above that is LinkedList.c$. And add more functions...
+and we use CDollar Generics...
+What is the function of LinkedList? Why we use LinkedList?
+In ArrayList You can't insert element in to the middle
+or first or last so LinkedList is focused....
+LinkedList is a Good example of Train....
+
+VECTOR
+------------
+Vector also has the same Datastructures of ArrayList;
+but why we focus? . So vector is simillar to Arraylist.
+So we can mention in short notation as VList.
+but Vector is synchronized and ArrayList is not Synchronized.
+Vector use Enumerator and Iterator but ArrayList use only Iterator.
+<VList> <VectorObject> = <NEW> <VList> ();
+<VectorObject>.addE(elements);
+but vector used add functions
+<VectorObject>.first(); => Represent First Element...
+<VectorObject>.last(); => Represent Last Element...
+<VectorObject>.removeAll(elements); => It is used to remove all elements..
+<VectorObject>.removeAt(elements); => remove at Particular position
+<VectorObject>.remove(object); => remove the first occurance of the given element
+<VectorObject>.remove(index); => Remove by Index or position.
+
+OOPS in CDOLLAR
+------------------------------
+A) INHERITANCE NOT USING EXTENDS METHOD...
+
+C.cdollar
+-------------
+<CDollar>
+<IMPORT>
+<%
+class A
+{
+public A() { Print.Println("A's called","n"); }
+}
+class B
+{
+public B() { Print.Println("B's called","n"); }
+}
+class C
+{
+public C() { { Print.Println("C's called","n"); } }
+public  Shared void  LIB( )
+{
+<NEW> A();
+<NEW> B();
+<NEW> C();
+}
+}
+%>
+?>
+Output:
+------
+CDollar: A's called nB's called nC's called n
+?>
+What is the Output for that?
+Tue Aug 18 08:14:53 GMT+00:00 2015*CDollar: A's constructor called nB's constructor called nC's
+constructor called nError: <table bgcolor=green>OUTPUT=Compling Cdollar filesCDOLLAR
+VERSION 1.3 Copy Right 2015 all rights reservedCreated by Jemin Information
+Technology ,wilmix jemin Bad token: < on row 1 and column 1Process failed during translation. no
+Errors in Cdollar program
+
+B) POLYMORPHISM in CDOLLAR
+-----------------------------------------------
+What is polymorphism?
+It is Means action on method to do different things
+based on the object that is action upon.
+Example:
+-------------
+Write a Program to compute Rectangle Area and Triangle area
+using Polymorphism.
+Geometry.cdollar
+----------------------------
+<CDollar>
+<IMPORT>
+<%
+class Polygon {
+Shared int width, height;
+public Shared int set_values (int a, int b)
+{ width=a; height=b; return(0); }
+}
+class Rectangle <--- Polygon {
+public int area()
+{ return width*height; }
+}
+class Triangle <--- Polygon {
+public int area()
+{ return width*height/2; }
+}
+class Geome<TRY>{
+public  Shared void  LIB( ) {
+Rectangle rect = <NEW> Rectangle();
+Triangle trgl= <NEW> Triangle();
+int t= Polygon.set_values (4,5) * Polygon.set_values (4,5);
+Print.Println( "Rect area=",rect.area());
+Print.Println( "Triange Area=",trgl.area());
+}
+}
+%>
+?>
+What will be the Output?
+Tue Aug 18 07:45:46 GMT+00:00 2015*CDollar: Rect area= 20Triange Area= 10
+CAN CDOLLAR Solves diamond Problem in multiple Inheritance?
+Yes
+C) Write a Progam to List Faculty , students using Diamond method in CDOLLAR
+:-
+Note: Without Extends methods its calls methods and value when new ()
+is intialized.
+This is the Major Advantage of Cdollar over native programming languages
+like JAVA.
+Program: TA.cdollar
+--------------
+<CDollar>
+<IMPORT>
+<%
+class Person {
+// Data members of person
+Person(){}
+public Person(int x) { Print.Println("Person::Person(int ) called",x); }
+}
+class Faculty {
+public Faculty(int x)
+{
+<NEW> Person(x);
+Print.Println("Faculty::Faculty(int ) called",x);
+}
+}
+class Student {
+// data members of Student
+public Student(int x) {
+<NEW> Person(x);
+Print.Println("Student::Student(int ) called", x);
+}
+}
+class TA {
+TA(int x) {
+<NEW> Faculty(x);
+<NEW> Student(x);
+Print.Println("TA::TA(int ) called",x);
+}
+public  Shared void  LIB( )
+{
+<NEW> TA(30);
+}
+}
+%>
+?>
+What will be the output ?
+Tue Aug 18 07:59:57 GMT+00:00 2015*CDollar: Person::Person(int ) called 30Faculty::Faculty(int ) called
+30Person::Person(int ) called 30Student::Student(int ) called 30TA::TA(int ) called 30Error: <table
+bgcolor=green>OUTPUT=Compling Cdollar filesCDOLLAR VERSION 1.3 Copy Right 2015 all
+rights reservedCreated by Jemin Information Technology ,wilmix jemin Bad token: < on row
+1 and column 1Process failed during translation. no Errors in Cdollar program
+How to run this program?
+CDollarc <Filename.cdollar>
+C) ABSTRACT CLASS
+What did you meant by Abstract class?
+Abstract class defines an Abstract concept which can't
+be instanated using new Operator().
+Where compare to multiple Inheritance it has an implementation
+where multiple Inheritance cannot have.
+<CDollar>
+<IMPORT>
+<%
+abstract class Abc51
+{
+abstract void display();
+}
+public class Abc5 <--- Abc51
+{
+Shared void display()
+{
+Print.Println("Wilmix","jemin");
+}
+public  Shared void  LIB( )
+{
+display();
+}
+}
+%>
+?>
+Output:
+-------
+No output
+Note:
+------
+It will display errors in wl file.
+Errors:[Abc5.CDollar:27: display() in Abc5 cannot override display() in Abc51; overriding method is
+static]Errors:[ static void display()]Errors:[ ^]Errors:[1 error]
+SO when you remove static in display method()
+and call display method() in CDollar Main Program
+What happens?
+Abc5.cdollar: 35: non-static method display() cannot be referenced from a static context
+display();
+^
+1 error
+This means it does not allow the Object to be created ......
+and it doesnot allow static methods in abstract class.
+=========================================================================
+More about COLLECTIONS
+---------------------------------------------
+SET
+------
+So Set is represented in Cdollar as <S>
+Syntax:
+-----------
+<S> Objectname = new <S>();
+Difference between Set and List?
+List allow duplicates but Set did not allow duplicates...
+Set did not allow insertion at middle.
+For listing the elements in Ascending or descending order
+we had to use TreeSet.
+Treeset
+------------
+Treeset represent a collection that uses Tree datastructure for storage
+Items in the collections are stored in Ascending or descending order.
+<TS> objectname = new <TS>();
+objectname.add(elements);
+Write a Cdollar Program about Treeset?
+remaining things Developer should fill it.
+public  Shared void  LIB( )
+{
+<AList> ar= <NEW> <AList>();
+ar.add("1123");
+ar.add("211");
+ar.add("31");
+ar.add("4");
+ar.add("100");
+<SORTINT>( ar,"ASC");
+<SORTINT>( ar,"DESC");
+<AList> ar1= <NEW> <AList>();
+ar1.add("rahul");
+ar1.add("wilmix");
+ar1.add("dion");
+ar1.add("shiyam");
+ar1.add("priya");
+ar1.add("abraham");
+<SORTSTRING>( ar1,"ASC");
+<SORTSTRING>( ar1,"DESC");
+}
+Output:
+------
+Order=ASC[4][31][100][211][1123]
+*******************************
+Order=DESC[1123][211][100][31][4]
+*******************************
+Order=ASC[abraham][dion][priya][rahul][shiyam][wilmix]
+*******************************
+Order=DESC[wilmix][shiyam][rahul][priya][dion][abraham]
+Operators conditions and loops
+--------------------------------------------------
+Operators
+---------
++ => ADD
+++=> Increment
+- => Substract
+--=> Substract
+* => Mulitply
+/ = Division
+~ => bitwise unary not operator
+NOT (!) => flips true values to false and false values to true.
+>>, >>>, and << => IT is used to shift all the bits of a number left
+or right
+a Specified number of places...
+Other Operators
+----------------
+AND => And operator
+OR => OR operator
+?: => value =condition ? value1 : value2 (similar to if then else)
+== => compare two values...
+= => Assignment operators
+EQ => Compare two objects
+Relational Operators
+--------------------
+> >= => Greater than , Greater than equals.
+< <= => Less than , Less than equal
+NOTEQ => Equals and not equals
+NotEQ simillar to !=
+CONDITIONS
+----------
+IF Syntax:
+------------
+if <condition> statements;
+IF then else Syntax:
+----------------------
+if <condition> statements else statements1
+if <condition> statements1 else if condition1 statement2 .... and soon.
+SWITCH Statements:
+-------------------
+switch (expression)
+{
+case value1 :
+statement1;
+[break]
+................
+case valuen:
+statementn;
+[break]
+-----
+default:
+default_statement;
+}
+Explanation:
+------------
+If the expression is equals value1
+statement1 will be executed.
+if you use break it comes out of the loop
+otherwise it continue to execute next statement.
+The default value at the end is optional. It can be included if there are other values that can be held in
+your variable but that you haven't checked for elsewhere in the switch statement.
+THE WHILE LOOP
+-----------------------------
+while (<condition> )
+{
+< Statements block>
+}
+Note: if the condition is true the block get executed.
+otherwise the loop will be continued.
+THE DO --- WHILE LOOP
+-----------------------------
+do
+{
+< Statements block>
+}
+while( <conditon> )
+Note: if the condition is true the block get executed.
+and it is tested at the end of the loop, but not at the
+beginning. The loop will be continued until it satisfies the condition.
+biggest reason to be use the do - while loop is that
+when you need the body of the loop to be run atleast once.
+FOR LOOP
+--------
+for ( identifier=value; cond1; iterator operators)
+{
+< Block statements >
+}
+For -EACH Statement
+----------------------
+for ( variable : collection)
+statement;
+for eg)
+If you add integers (1 to 3) to arraylist
+and if you wish to copy and store it in an integer variable
+so that you can print the values that is copied from
+arraylist.
+Then follow this method of for each statements...
+for ( int a : ar)
+{
+CDollar.out.println("value="+a);
+}
+Output:
+-----------
+value=1
+value =2
+value =3
+CONTINUE and Break
+---------------------------------
+Break means it break out of loop
+and continue means
+it will continue to execute the statements;
+for eg)
+Program :WHILE LOOP with continue and break if statement...
+--------------------------------------------------------------------------
+<CDollar>
+<IMPORT>
+<%
+public class WHILE
+{
+public  Shared void  LIB( )
+{
+int a=0;
+while (a <=10)
+{
+a++;
+CDollar.out.println("value="+a);
+if ( a==9) continue;
+// if you remove this if --else statements it will print all the
+values..
+else break;
+}
+}
+}
+%>
+?>
+Output:
+-------
+Wed Aug 19 10:09:23 GMT+00:00 2015*
+CDollar: value=1
+Error: <table bgcolor=green>OUTPUT=Compling Cdollar filesCDOLLAR VERSION 1.3 Copy
+Right 2015 all rights reservedCreated by Jemin Information Technology ,wilmix jemin
+Bad token: < on row 2 and column 1Process failed during translation. no Errors in Cdollar .
+
+DATATYPES and OVERLOADING and OVERRIDING CONCEPTS, INNER CLASS
+---------------------------------------------------------------------------------------
+DATATYPES of CDollar are
+-------------------------------
+int -> accept only int value
+float -> accept float value=>eg) 1.5f
+boolean => true or false
+character => accept character value
+byte -> 1 byte
+short -> 2 bytes
+long-> 8 bytes
+double-> for eg) 1.2121233232E9 => Accept double value
+ARRAY => It is used to store values and had fixed size.
+ARRAY
+-------
+SYNTAX:
+<Datatype> Arrayname ARRAY [index]
+int a ARRAY[1000]; => has 1000 locations to store values...
+for two dimension ARRAY
+int a[100] ARRAY[100]=> 100 *100 => has 10000 locations to store values
+OTHER KEYWORDS IN CDOLLAR
+--------------------------------------------------
+AND -> AND operator
+NOT -> NOT operator
+# -> NOTEQUALS
+RUN -> Runnable used in thread
+TH-> Thread
+<EXE> -> Exception
+Friends -> Frend function
+INNER and OUTER CLASS
+-----------------------------------------
+Inner class are nested inside outer class even if the fields
+declared as private members.
+<CDollar>
+<IMPORT>
+<%
+class Outer {
+private int privInt = 10;
+public void createInnerClass() {
+Inner inClass = <NEW> Inner(); //creating innerclass object and calling method
+access.
+inClass.access();
+}
+class Inner { // Inner class
+public void access() {
+CDollar.out.println("The outer classs privInt is " + privInt);
+}
+}
+}
+%>
+OVERLOADING AND OVERRIDING functions
+-------------------------------------------
+OVERLOADING
+------------
+A functions with same name but different signature is called
+as Overloading concept.
+public void display(int i , String j) {}
+=> If you pass int and string values from main program it will call
+this function.
+ABC a = <NEW> ABC(10,"ewew");
+public void display(int i, int j) {}
+ABC a = <NEW> ABC(10,20);
+=> If you pass int and int values it will call this function.
+OVERRIDING
+-----------
+A function with same name and same signature
+will cause overriding....
+Overriding can be avoided by using super() keyword.
+in another class.
+<CDollar>
+<IMPORT>
+<%
+class abc
+{
+void display(String s)
+{
+CDollar.out.println("We learn C , Dotnet ,and ,CDollar");
+}
+}
+class abcd <--- abc
+{
+void display(String s)
+{
+<SUPER>(s); // if super keyword is added we had to pass arguments in
+super keyword.
+CDollar.out.println("We learn C , Dotnet ,and ,JDollar");
+}
+}
+%>
+Note: this will cause overriding
+and it can be avoided by using super () keyword.
+
+OTHER ATTRACTIVE SYMBOLS in CDOLLAR
+-------------------------------------------
+--> => implements
+<-- => extends
+MISC
+-----
+Program -MISC
+-----------------------
+<CDollar>
+<IMPORT>
+<%
+// Advanced concepts : Here Friends is a helper function used in other classes
+friends toy
+{
+public void display();
+}
+// friends will act like friend function in C++.
+class concat1 --> toy
+//---> indicates implements toy
+{
+public void display()
+{
+CDollar.out.println("CDollar is going to be finished");
+}
+}
+public class concat
+{
+Shared int counter=4;
+//Shared means static and which can be accessed over all the objects of
+variables.
+//<EXE> means throws Exception
+// <S> means set
+//<WR> indicates iterator
+//<SBD> means string builder
+//<SB> is String Buffer
+// Differences is StringBuffer is Synchronized and
+//and String Builder is not Synchronized
+//AND means && in JAVA
+//NOT means ! in JAVA
+//TH means Thread in CDollar
+//int <Arrayname> Array [nooflocations] (ARRAY SYNTAX)
+//addE means AddElements
+public  Shared void  LIB( ) throws <EXE>
+{
+int i;
+String i1="weew";
+Print.Println("wilmix",i1);
+Print.Println(" \njemin","is going");
+<S> <Integer> ar2 = <NEW> <TS> <Integer> ();
+ar2.add(100);
+<WR> it = ar2.record();
+while (it.<HAS>)
+{
+<OBJECT> el= it.next();
+Print.Println("/n",el.StringConvert());
+}
+<SBD> sb = <NEW> <SBD>("weldone wilmix");
+int a;
+a=105;
+if (( a >100) AND (a<=106))
+CDollar.out.println("/n"+a);
+if (a NOT= 0)
+CDollar.out.println("/n"+a);
+a+=2+counter;
+if (a # 107)
+CDollar.out.println("/n"+a);
+TH t = <NEW> TH();
+int a11[] <Array> int[100];
+a11[0]=1000;
+CDollar.out.println("/n"+a11[0]);
+<VList> v = <NEW> <VList>();
+v.addE(100);
+CDollar.out.println("/n"+v.get(0));
+v.removeAt(0);
+v.addE(1001);
+v.addE(1002);
+CDollar.out.println("/n"+v.first());
+// This is the program for writing program in random access file ;
+//it means it can be randomly inserted and retrieved at any location */
+//writing word in random accessfile
+<RANDOMACCESSFILE> rf = <NEW> <RANDOMACCESSFILE>("concat.c$","rw");
+rf.write("Hello World".getBytes());
+rf.close();
+rf.close();
+concat1 obj = <NEW> concat1();
+obj.display();
+}
+}
+%>
+?>
+So What will be the Output?
+OUTPUT:
+--------
+Wed Aug 19 17:33:47 GMT+00:00 2015*
+CDollar: wilmix weew jemin is going/n 100/n105/n105/n111/n1000/n100/n1001
+CDollar is going to be finished
+Error: <table bgcolor=green>
+OUTPUT=Compling Cdollar files
+CDOLLAR VERSION 1.3 Copy Right 2015 all rights reserved
+Created by Jemin Information Technology ,wilmix jemin
+Bad token: < on row 2 and column 1Process failed during translation.
+no Errors in Cdollar program
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==================================================================================
+
+UNIT 4
+-------
+FILE,Other collection concepts,Advanced Concepts of CDollar,MISC-2,Exception and
+Error,Garbage collection,Threads,Generics,CDollar Structures.
+==================================================================================
+
+Advanced Topics in FILE
+-----------------------------
+<BUFFINPUTSTREAM> =>you can use <MARK> and <RESET> keyword
+to move backward in a buffered input stream.
+<DOUTPUTSTREAM> =>
+which can be used to write the stream or to do other operations on the stream.
+IT USES <WRITEBYTES> TO Write into file.
+<DINPUTSTREAM > => USED TO READ STRING FROM
+THE FILE. It Uses <READBYTES> TO READ FROM A FILE.
+<BREADER> =>Buffered reader uses <READLINE> to read a line from a
+file.
+<BWRITER> => Buffered writer uses <WRITELINE> to write a line from a
+file.
+<INPUTREADER> =>
+The InputReader is intended to wrap an InputStream, thereby turning the byte based input stream into a
+character based Reader.
+<FILE> => used fort creating reading ,Appending, and writing string to a file.
+Note: Character files are read and written using <FileWriter> and <FileReader>. Writing Streams of
+character is best suited using FileWriter.
+FileReader
+----------
+FileReader assumes that default character encoding and default byte-buffer size are appropriate.
+FileReader reads character stream.
+<FILESREADER>
+FileWriter
+----------
+FileWriter assumes that default character encoding and default byte-buffer size are appropriate.
+<FILESWRITER>
+OUTPUTWRITER
+<OUTPUTWRITER>
+The OutputWriter is intended to wrap an OutputStream, thereby turning the byte based output stream
+into a character based Writer.
+Better than all this random Access file is the best use....
+So file concepts are over. SO we ask developers to concenterate on
+RandomAccess file....
+OTHER COLLECTIONS CONCEPTS
+---------------------------------------------------
+<M> => map MEANS IT CONTAINS KEYS AND VALUE PAIRS...
+HashSet
+-------------
+SYNTAX:
+<HSET> <hashsetname> = <NEW> <HSET>();
+HASHMAP
+----------------
+SYNTAX:
+<HMAP> <HASHMAPNAME> = <NEW> <HMAP>();
+<HASHMAPNAME>.PUT(key,valuepairs);
+<HASHMAPNAME>.GETKEY(index);
+<HMAP> mp = <NEW> <HMAP>();
+mp .PUT(1, 234);
+CDollar.out.println(""+mp.GETKEY(1));
+HASHTABLE
+----------------
+SYNTAX:
+<HTABLE> <HASHTABLENAME> = <NEW> <HTABLE>();
+<HASHTABLENAME>.PUT(key,valuepairs);
+<HASHTABLENAME>.GETKEY(index);
+<HTABLE> mp = <NEW> <HTABLE>();
+mp.PUT(1, 234);
+CDollar.out.println(""+mp.GETKEY(0));
+// This elements can be retrieved by using GETKEY().
+note: hash determines a order in which elements are
+stored in the hash; SO it will display according
+to hash stored order.
+ADVANCED CONCEPTS of CDOLLAR
+----------------------------------------------------------
+GENRIC STACK
+-----------------------------
+<GS> (we will see later)
+ITERATOR
+----------------
+Iterator iterate about collection
+in the forward direction and not in backward direction.
+and it will iterate record wise from the List or collection.
+<WR> it = collectionobj.record();
+where collection obj may be list,arraylsit, and so on.
+for EG)
+<WR> it = ar.record(); //iterate arraylist.
+while(it.<HAS>) // if it has more elements from arraylist
+{
+<OBJECT> el = it.<NEXT>;
+//<OBJECT> is the object..
+//<NEXT> is used to list next element from the collection
+CDollar.out.println(" data= "+el);
+//print the elements
+}
+Listiterator:
+-------------
+Normally Iterator will not move backward directions
+by using iterator. It can be done by using Listiterator.
+<LR> <listiterateobject> = Object.<LISTLR>();
+eg)
+<LR> it1 = ar.<LISTLR>; // iterate the arraylist in backward direction
+if you use <PREVIOUS> keyword
+while(it1.<HASP>) // if the iterator has more elements
+{
+<OBJECT> el1 = it1.<PREVIOUS>;
+//move to previous record from arraylist
+CDollar.out.println(" data1= "+el1);
+//print the object
+}
+ARRAYSSORT
+---------------------
+<A>.<SORT>(arrayname);
+SO if you want to sort an array you
+must use the keyword <A>.<SORT>(ar);
+That means the give array is sorted in ascending order and
+store it in array
+ARRAYBINARYSEARCH
+-----------------
+<A>.<BinarySearch>(arrayname,position)
+This will search the array in binarysearch wise...
+according to the given position.
+MISC-EXAMPLE-2
+--------------------------
+<CDollar>
+<IMPORT>
+//implements thread
+<%
+abstract class misc <--- TH
+{
+// if variable declared as volatile means Synchronization happens
+// at the variable level
+// If the variable is declared as Transient
+//means transient state is not saved. why we declared a Transient
+//variable since it can used in the main program.
+// <------- or ------> this means closing or hiding unwanted statements
+// <DATE > means DATE
+<VOLATILE> int v1;
+Shared <TRANS> int v;
+~
+{
+CDollar.out.println("object is deleted");
+}
+public int getnum1()
+{
+return(v1);
+}
+Shared int s3;
+//simillar to operator overloading in c++.
+public Shared void operator *(int s1 ,int s2)
+{
+s3=s1 * s2;
+CDollar.out.println(""+s3);
+}
+public  Shared void  LIB( ) throws <EXE>
+{
+int a[] <Array> int[1000];
+operator *(10,10);
+operator *(200,10000);
+<AList> ar = <NEW> <AList>();
+for(int i=999;i>=0;i--)
+{
+a[i]=i;
+ar.add(i);
+}
+<A>.<SORT>(a);
+for(int i=0;i<=999;i++)
+CDollar.out.println(" "+i);
+CDollar.out.println(" "+<A>.<BinarySearch>(a,-5));
+<WR> it = ar.record();
+while(it.<HAS>)
+{
+<OBJECT> el = it.<NEXT>;
+CDollar.out.println(" data= "+el);
+}
+<LR> it1 = ar.<LISTLR>;
+while(it1.<HASP>)
+{
+<OBJECT> el1 = it1.<PREVIOUS>;
+CDollar.out.println(" data1= "+el1);
+}
+<------
+while (es.<HASEMORE>)
+{
+<OBJECT> el11 = es.<NEXTEL>;
+CDollar.out.println(" data1= "+el1);
+}
+------>
+<DATE> d2 = <NEW> <DATE>();
+// print the month of the date
+//print the year
+//print the hours
+//print the seconds
+CDollar.out.println("month="+<Month>);
+CDollar.out.println("Year="+<Y>);
+CDollar.out.println("Hour="+<H>);
+CDollar.out.println("Sec="+<SEC>);
+//<VOLATILE> int v1;
+//<TRANS> int v;
+// Transient variable is assigned a value 20
+v=20;
+// Serialization
+// Serialization means object stream is
+//convert to stream of bytes we can save the object in
+//harddisk and sent it across the n/w.
+//fileoutputstream
+<FOUTPUTSTREAM> os1 = <NEW> <FOUTPUTSTREAM>("out1.txt");
+<OOUTPUTSTREAM> d = <NEW> <OOUTPUTSTREAM>(os1);
+//object outputstream is used to write an object
+///write an object
+//write an arraylist object.
+//and convert to serializable format.
+d.<WRITEOBJ>(v);
+d.<WRITEOBJ>(ar);
+// read contents form the file
+// objectinpustream to read the object...
+//Objectread is used to read an object
+//used to display the contents from the file in the deserialible format.
+// ie, the format the user can read....
+<FINPUTSTREAM> osd = <NEW> <FINPUTSTREAM>("out1.txt");
+<OINPUTSTREAM> br = <NEW> <OINPUTSTREAM>(osd);
+<OBJECT> ar7 = br.<OBJECTREAD>;
+CDollar.out.println(""+ar7);
+<STACK> s= <NEW> <STACK>();
+s.<PUSH>(100);
+s.<PUSH>(2000);
+s.<POP>;
+// push 100,2000 and pop last element 2000 and print it
+CDollar.out.println(""+s);
+<PRIORITYQUEUE> q = <NEW> <PRIORITYQUEUE>();
+q.add(1000);
+q.add(544);
+q.add(66);
+q.add(667888);
+//add some elements to priority queue and print it
+CDollar.out.println(""+q);
+}
+}
+%>
+?>
+Exception and ERROR
+-----------------------------------
+Exception is a abnormal condition that arise during
+the code sequence at run time.
+What are the two Types of Exception?
+Checked and Unchecked Exception.
+Exception that arise during the run time are called as
+Unchecked exception.
+Thrown exception are refer to the checked exception.
+Unchecked Exception
+--------------------
+<Arithmetic> -> Arithmetic exception
+<ArrayIndex> -> ArrayIndex outof bound exception
+<ArrayStore> -> Assignment to an array of an incompactible type.
+<IndexOut> -> Index out of boud exception
+<NegativeArraySize> -> Array Created with a negative array size.
+<NullPointer> -> Null pointer exception
+<NumberFormat> -> invalid conversion of string to numeric format.
+typing or giving data string as input in integer datatype.
+<SecurityException> -> Attempt to violate security
+<StringIndex> ->Attempt to acess index ouside the bounds of a string.
+Checked Exception
+-----------------
+<ClassNotFound> -.> class not found
+<CloneNotFound>-> Clone keyword is absent
+<IllegalAcess> -> Access to a class is denied.
+<Instanation>-> Attempt to create an object of abstract class or friendly functions
+<Interrupted>=> One thread has interrupted by another thread.
+<NoSuchField> => A request field doesnot exist
+<NoSuchMethod>=> Request emthod doesnot exist.
+<TRY> -> try in C/JAVA
+<CATCH> -> catch in c/java
+<Finally> -> final in c/java
+SYNTAX:
+-------------
+<TRY>
+{
+< Executable good statements>
+}
+<CATCH> (<EXE> e)
+{
+CDollar.out.println(""+e);
+}
+<Finally>
+{
+<Final block statements>
+}
+Explanation:
+-------------------
+When ever the Exception is true statements inside a try
+block is executed; otherwise
+statements inside a catch block is executed.
+Exception occurs or not
+final block get executed..
+FINAL in CDOLLAR
+--------------------------
+UnShared keyword means final in CDollar
+eg)
+UnShared int i=9;
+// if a variable is declared as final
+that value can't be changed.
+eg)
+UnShared class abc
+{
+.......
+}
+if the class is declared as UnShared it can't
+be overridden.
+so if the method is declared as UnShared
+such method can't be overriden by another class method.
+GARBAGE COLLECTION
+-------------------
+<RECYCLE> => Garbage colection
+eg) if you allocate elements a=9;
+but doesnot use in the program so such object
+are garbage collected by using <RECYCLE> keyword.
+
+THREADS
+--------------
+A thread is a path of execution that run on CPU
+and process is a collection of thread that share a same virtual
+memory.
+
+SIMPLE THREAD
+----------------------------
+<CDollar>
+<IMPORT>
+<%
+public class threads1 <--- TH
+{
+public <Str> str;
+public void <RUN>
+{
+for (int i=0;i<=10;i++)
+CDollar.out.println(""+str);
+}
+public  Shared void  LIB( ) throws <EXE>
+{
+threads1 t = <NEW> threads1();
+t.str = "thread1";
+t.<START>; //start first thread
+threads1 t1 = <NEW> threads1();
+t1.str = "thread2";
+t1.<START>; // start second thread.
+//here after the thread1 get executed thread 2 is executed....
+}
+}
+%>
+?>
+Output:
+Thu Aug 20 11:12:44 GMT+00:00 2015*CDollar:
+thread1thread1thread1thread1thread1thread1thread1thread1thread1thread1thread1thread2thread2th
+read2thread2thread2thread2thread2thread2thread2thread2thread2Error: <table
+bgcolor=green>OUTPUT=Compling Cdollar filesCDOLLAR VERSION 1.3 Copy Right 2015 all
+rights reservedCreated by Jemin Information Technology ,wilmix jemin Bad token: < on row
+2 and column 1Process failed during translation. no Errors in Cdollar program
+<table bgcolor=green>
+OUTPUT=
+Compling Gdollar files
+CDOLLAR VERSION 1.3
+Copy Right 2015 all rights reserved
+Created by Jemin Information Technology ,wilmix jemin
+Bad token: < on row 2 and column 1
+Process failed during translation.
+no Errors in Cdollar
+SYNCHRONIZED:
+------------
+If multiple clients want to access the shared resource
+synchronization provide the way for the multiple clients
+not for the specific one.
+BIG Program for Synchronization
+----------------------------------
+<CDollar>
+<IMPORT>
+<%
+class threads
+{
+public  Shared void  LIB( )
+{
+My thread1 = <NEW> My("thread1: ");
+My thread2 = <NEW> My("thread2: ");
+thread1.<START>;
+thread2.<START>;
+boolean thread1IsAlive = true;
+boolean thread2IsAlive = true;
+do {
+if (thread1IsAlive AND NOTthread1.isAlive()) {
+thread1IsAlive = false;
+CDollar.out.println("MY DOG 1 is dead.");
+}
+if (thread2IsAlive AND NOTthread2.isAlive()) {
+thread2IsAlive = false;
+CDollar.out.println("MY DOG 2 is dead.");
+}
+} while(thread1IsAlive || thread2IsAlive);
+}
+}
+class My <--- TH
+{
+Shared <Str> message[] ={ "CDollar", "is", "combination", "of", "JAVA", "and c"};
+public My(<Str> id)
+{
+<SUPER>(id);
+}
+public void <RUN>
+{
+SyncOut.displayList("welcome",message);
+}
+void randomWait()
+{
+<TRY> {
+<SLEEP>((long)((300)));
+} <CATCH> (<Interrupted><EXE> x) {
+CDollar.out.println("Interrupted!");
+}
+}
+}
+class SyncOut
+{
+public Shared <Synchronized> void displayList(<Str> name,<Str> list[])
+{
+for(int i=0;i<list.length;++i) {
+// TH means Thread
+My t = (My) TH.currentTH();
+t.randomWait();
+CDollar.out.println(name+list[i]);
+}
+}
+}
+%>
+?>
+ CDollarc threads.cdollar
+OUTPUT:
+Sun Sep 20 22:04:45 GMT+00:00 2015*CDollar:
+welcomeCDollarwelcomeCDollarwelcomeiswelcomeiswelcomecombinationwelcomecombinationwelcom
+eofwelcomeofwelcomeJAVAwelcomeJAVAwelcomeand
+cMY DOG 1 is dead.welcomeand cMY DOG 2 is dead
+.Error: <table bgcolor=green>OUTPUT=Compling Cdollar filesCDOLLAR VERSION 1.3 Copy
+Right 2015 all rights reserved
+Created by Jemin Information Technology ,wilmix jemin Bad token: < on row 2 and column
+1Process failed during translation.
+no Errors in Cdollar program
+WAIT
+--------
+It WAITS indefinitely for another thread of execution until it receives notify
+or notify all message.
+<WAIT>
+NOTIFY AND NOTIFYALL
+----------------------------------------
+<NOTIFY> ->
+The keyword process waits for a single thread waiting on a
+object monitor.
+ALL ->
+The keyword process waits for a multiple thread waiting on a
+object monitor.
+JOIN
+--------
+join() method
+This Process join with another thread after another thread finishes the
+execution.
+eg) Thread t1 => Wait for 100 seconds
+and Thread t2 => will execute after Thread t1 complets the execution.
+This is the meaning of join process in Thread.
+
+CDOLLAR ADVANCED CONCEPTS
+--------------------------------
+STACK
+---------
+Stack means lastin first out.
+A stack is a container of objects that are inserted and removed according to the last-in first-out (LIFO)
+principle.
+In the pushdown stacks only two operations are allowed: push the item into the stack, and pop the item
+out of the stack.
+<STACK> s= <NEW> <STACK>();
+s.<PUSH>(100); // PUSH operator to push the elements into stack
+s.<PUSH>(2000);
+s.<POP>;
+CDollar.out.println(""+s);
+Output:
+[100]
+Priority Queue:
+---------------------
+Many applications require that we process items having keys in order, but not necessarily in full sorted
+order and not necessarily all at once.
+Often, we collect a set of items, then process the one with the largest key, then perhaps collect more
+items, then process the one with the current largest key,
+and so forth. An appropriate data type in such an environment supports two operations:
+remove the maximum and insert. Such a data type is called a priority queue.
+<PRIORITYQUEUE> q = <NEW> <PRIORITYQUEUE>();
+q.add(1000);
+q.add(544);
+q.add(66);
+q.add(667888);
+CDollar.out.println(""+q);
+Output:
+-------
+[66, 1000, 544, 667888]
+Destructor:
+----------
+Destructor means object is going to be destroyed.
+~
+{
+CDollar.out.println("object is deleted");
+// this means object is going to be destroyed.
+}
+where ~ is the Destructor
+
+Operator Overloading in CDollar
+------------------------------------------------
+This means we can overload the operators
+like + - = / > < >= <=
+Compare CompareTo
+public Shared void operator *(int s1 ,int s2)
+{
+s3=s1 * s2;
+CDollar.out.println(""+s3);
+}
+public  Shared void  LIB( )
+{
+operator *(10,10);
+// You are passing * Multiply Operator in the main Program
+operator *(200,10000);
+}
+GENERICS
+---------------
+GENRICS means which is used to Pass Type as argument as class
+for example if you want to pass String , int, float datatypes at the
+same time and if you use display method to display the value of any
+datatype
+so Generic is most useful in that case.
+<CDollar>
+<IMPORT>
+<%
+public class GEN<T>
+{
+T t;
+T display(T t1)
+{
+t=t1;
+return(t);
+}
+public  Shared void  LIB( )
+{
+GEN <Integer> i = <NEW> GEN<Integer> ();
+CDollar.out.println(""+ i.display(10));
+}
+}
+%>
+?>
+
+
+
+=================================================================
+CDOLLAR STRUCTURES
+-----------------------------------
+CDollar structure is another user defined data type available in CDollar programming, which allows
+you to combine data items of different kinds.
+using the same memmory location. It also provide an efficient way of using the same
+memory location for multi-purpose.
+Thus CDollar Structures is Equivalent = C progamming Structures and union.
+and it uses less memmory capacity than any Programming languages. IT is also
+used to store collections, objecte ,etc.
+IT is the most important datastructure implemented by wilmix jemin j.
+He reduces the demerits of C Programming and
+C child is CDollar. So CDollar has very beautiful and Advanced Concepts
+than
+any Programming Languages. And the Native Technology like JAVA
+fails to do.
+Program-1:
+---------
+<CDollar>
+<IMPORT>
+<%
+class structeg // define a class
+{
+Shared int sno; Shared int m1,m2,m3;
+Shared double avg=0.0;
+structeg(int sno,int m1,int m2,int m3,double avg)
+{
+<IS>.sno=sno;
+<IS>.m1=m1;
+<IS>.m2=m2;
+<IS>.m3=m3;
+<IS>.avg=avg;
+}
+public  Shared void  LIB( )
+{
+sno=1;
+m1=234;
+m2=456;
+m3=656;
+avg=((m1+m2+m3)/3);
+structeg s = <NEW> structeg(sno,m1,m2,m3,avg); // create an object of a classs
+structeg s2 = <NEW> structeg(sno,m1,m2,m3,avg); // create an object of a classs
+<STRUCTURE> <<OBJECT>> list = <NEW> <STRUCTURE> <<OBJECT>>(s);
+list.add(s2);
+//add the Objects to structures....
+for (int i = 0; i NOT= list.size(); i = i + 1) //compute the size of structures
+{
+<OBJECT> el=list.ret(i);
+structeg s1= (structeg)el;
+//made class objects equals structure objects and cast using structure ....
+CDollar.out.println("SNO= "+s1.sno);
+CDollar.out.println(" m1="+s1.m1);
+CDollar.out.println(" m2="+s1.m2);
+CDollar.out.println(" m3="+s1.m3);
+CDollar.out.println(" AVG="+s1.avg);
+CDollar.out.println(" size="+list.size());
+}
+}
+}
+%>
+?>
+What will be the Output?
+OUTPUT:
+------------
+Fri Aug 21 13:29:21 GMT+00:00 2015*CDollar:
+SNO= 1 m1=234 m2=456 m3=656 AVG=448.0 size=2 SNO= 1 m1=234 m2=456 m3=656 AVG=448.0 size=2
+ADVANTAGES:
+--------------------
+Billing programs, GUI, Record wise Search and Printing ,etc...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==================================================================================
+
+UNIT-5 :CDOLLAR GRAPHICS and NETWORKING
+==================================================================================
+
+CDOLLAR GRAPHICS always focus on GWT Graphics and GUI. GWT
+is a heavy weighted toolkit.
+CDollar Graphics can be done by extending Graphics class.
+This will create a frame for that.
+GWT graphics can be drawn using <PAINT> method.
+Program-1
+----------
+<CDollar>
+<IMPORT>
+<%
+class abcde <--- Graphics
+{
+public  Shared void  LIB( )
+{
+abr a = <NEW> abr();
+a.<SIZE>(500,700);
+a.<FLOWLAYOUT>
+a.<VISIBLE=TRUE>
+}
+Shared class abr <--- abcde
+{
+<PAINT> //c
+for(int i=0; i<=600;i++)
+{
+<DRAWTEXT>("CHOOSEN CHOICE is",400,500);
+<SETCOLOUR>(COLOR=red); //set color of oval
+<OVAL>(10+i,10+i,50+i,50+i);
+<FILLOVAL>(70+i,90+i,140+i,100+i);
+<SETCOLOUR>(COLOR=blue); //set color of oval and rect
+<OVAL>(190+i,10+i,90+i,30+i);
+<RECT>(100+i,10+i,60+i,50+i);
+<SETCOLOUR>(COLOR=cyan); //set color of rect
+<FILLRECT>(100+i,10+i,60+i,50+i);
+<ROUNDRECT>(190+i,10+i,60+i,50+i,15+i,15+i);
+<SETCOLOUR>(COLOR=green);
+<ARC>(10+i,20+i,150+i,190+i,160+i,60+i); //drow an arc
+<FILLARC>(230+i,15+i,150+i,200+i,150+i,75+i);
+if ( i== 300) i=i-1; //if i==300 decrement i by 1
+}
+}
+}
+}
+%>
+?>
+Program-2:
+----------
+Draw a house using CDollar
+<CDollar>
+<IMPORT>
+<%
+class HOUSE <--- Graphics
+{
+public  Shared void  LIB( )
+{
+houseparts a = <NEW> houseparts();
+a.<SIZE>(500,700);
+a.<FLOWLAYOUT>
+a.<VISIBLE=TRUE>
+}
+Shared class houseparts <--- HOUSE
+{
+<PAINT>
+{
+background(g);
+house (g);
+roof1 (g);
+roof2 (g);
+windows (g);
+framing (g);
+extras (g);
+text (g);
+}
+public void background(<DRAW> g)
+{
+<SET>Background (COLOR=white);
+<SETCOLOUR>(COLOR=black);
+<FILLOVAL> (15,35,170,55);
+<FILLOVAL> (20,20,160,50);
+<FILLOVAL> (350,50,170,55);
+<FILLOVAL> (355,35,160,50);
+<SETCOLOUR>(COLOR=cyan);
+<FILLOVAL> (650,035,120,120);
+<SETCOLOUR>(COLOR=green);
+<ARC>(10,20,180,190,160,60);
+<FILLARC>(230,15,150,200,150,75);
+}
+public void house (<DRAW> g)
+{
+<SETCOLOUR>(COLOR=yellow);
+<FILLRECT> (100,250,400,200);
+<FILLRECT> (499,320,200,130);
+<SETCOLOUR>(COLOR=green);
+<FILLRECT> (160,150,60,90);
+<FILLRECT> (245,380,110,70);
+<FILLRECT> (508,350,180,100);
+<SETCOLOUR>(COLOR=yellow);
+<FILLOVAL> (282,412,10,10);
+<FILLOVAL> (307,412,10,10);
+}
+public void roof1 (<DRAW> g)
+{
+<SETCOLOUR>(COLOR=pink);
+int x[] = {98,300,501};
+int y[] = {250,130,250};
+<FILLPOLYGON>(x,y,3);
+}
+public void roof2 (<DRAW> g)
+{
+<SETCOLOUR>(COLOR=orange);
+int x[] = {499,499,700};
+int y[] = {320,249,320};
+<FILLPOLYGON>(x,y,3);
+}
+public void windows (<DRAW> g)
+{
+<SETCOLOUR>(COLOR=white);
+<FILLOVAL>(521,350,68,31);
+<FILLOVAL> (606,350,68,31);
+<FILLRECT> (121,261,78,78);
+<FILLRECT> (121,361,78,78);
+<FILLRECT> (401,261,78,78);
+<FILLRECT> (401,361,78,78);
+<FILLRECT> (241,261,118,78);
+<SETCOLOUR>(COLOR=white);
+<FILLRECT> (125,265,70,70);
+<FILLRECT> (125,365,70,70);
+<FILLRECT>(405,265,70,70);
+<FILLRECT> (405,365,70,70);
+<FILLRECT> (245,265,110,70);
+<FILLOVAL> (525,353,60,25);
+<FILLOVAL> (610,353,60,25);
+}
+public void framing (<DRAW> g)
+{
+<SETCOLOUR>(COLOR=black);
+<FILLRECT> (298,380,2,70);
+<FILLRECT> (508,382,180,2);
+<FILLRECT> (508,417,180,2);
+<SETCOLOUR>(COLOR=white);
+<FILLRECT> (157,265,5,70);
+<FILLRECT> (157,365,5,70);
+<FILLRECT> (437,265,5,70);
+<FILLRECT> (438,365,5,70);
+<FILLRECT> (297,265,5,70);
+<FILLRECT> (125,298,70,5);
+<FILLRECT> (125,398,70,5);
+<FILLRECT> (405,298,70,5);
+<FILLRECT> (405,398,70,5);
+<FILLRECT> (245,298,110,5);
+<FILLRECT> (245,375,110,5);
+<FILLRECT> (240,375,5,75);
+<FILLRECT> (352,375,5,75);
+<FILLRECT> (508,345,180,5);
+<FILLRECT> (503,345,5,105);
+<FILLRECT> (688,345,5,105);
+}
+public void extras (<DRAW> g)
+{
+<SETCOLOUR>(COLOR=orange);
+<FILLOVAL> (160,105,35,45);
+<FILLOVAL> (170,95,35,45);
+<FILLOVAL> (160,85,35,45);
+<FILLOVAL> (170,35,35,45);
+<FILLOVAL> (160,25,35,45);
+<FILLOVAL> (170,15,35,45);
+<SETCOLOUR>(COLOR=orange);
+<FILLRECT> (508,450,180,150);
+<FILLRECT> (245,450,107,50);
+<FILLRECT> (274,500,50,40);
+<FILLRECT> (274,520,250,45);
+}
+public void text (<DRAW> g)
+{
+<SETCOLOUR>(COLOR=orange);
+<DRAWTEXT>("House portrait by: wilmix jemin",390,70);
+}
+}
+PROGRAM-3
+----------
+if you select radio or listbox or combobox it should display items
+in text box.
+//Graphics using GWT and GWT components are heavy weighted
+<CDollar>
+<IMPORT>
+<%
+class GUI1 <--- IconImage --> <HEAR>
+// <HEAR> is a Listener
+{
+Shared <RADIO> r <GWT=6>(); //declare a radio
+Shared <TEXTFIELD> l3 <GWT=3> (); // declare a text box
+Shared <CHECKBOX> l5 <GWT=5> ("YES",false,r); //declare a radio button
+Shared <CHECKBOX> l51 <GWT=5> ("NO",false,r); //declare a radio button
+Shared <LISTBOX> lb <GWT=7>();// declare a listbox
+Shared <COMBOBOX> cb <GWT=8>();//declare a combo box
+Shared <Str> s= "";
+<ITEMSTATECHANGED> //if you choose checkbox or combox or listbox
+{
+if (ie.<ITEMSELECTABLE> == l5)
+l3.<VALUE>("YES"); //set text value =yes
+if (ie.<ITEMSELECTABLE> == l51)
+l3.<VALUE>("NO"); //set text value =no
+if (ie.<ITEMSELECTABLE> == cb)
+l3.<VALUE>(((<COMBOBOX>) ie.<ITEMSELECTABLE>).<SELECTITEM>);
+//set text value =combobox select item
+if (ie.<ITEMSELECTABLE> == lb)
+l3.<VALUE>(((<LISTBOX>) ie.<ITEMSELECTABLE>).<SELECTITEM>);
+//set text value =lsit box select item
+s=l3.<ASSIGN>(); //get textbox value and assign to s
+}
+public  Shared void  LIB( ) {
+abrpaint g =<NEW> abrpaint();// <NEW> for creating object for class
+<IMAGE>
+//GUI1 g = <NEW> GUI1();
+<LABEL> l1 <GWT=1> ("CDollar GUI Programming"); //creating instance of label
+<BUTTON> l2 <GWT=2> ("CDollar GUI Programming"); //creating instance of button
+//<TEXTFIELD> l3 <GWT=3> ();
+<TEXTAREA> l4 <GWT=4> (12,40);//creating instance of textfield
+//<CHECKBOX> l5 <GWT=5> ("Yes");
+l5.<SOUND>(g);//add listener to radio button
+//<CHECKBOX> l51 <GWT=5> ("NO");
+l51.<SOUND>(g); //add listener to radio button
+l3.<VALUE>("<THIS> is a textbox"); //set value of text field
+l4.<APPEND>("Number of columns in this textarea: " + l4.<COLS>); //append text area
+and display no of cols
+//used to add components to the Graphics
+g.add(l1);
+g.add(l2);
+g.add(l3);
+g.add(l4);
+g.add(l5);
+g.add(l51);
+//add some items to listbox
+lb.add("CDOLLAR");
+lb.add("JAVA");
+lb.add("JDOLLAR");
+lb.add("C");
+lb.add("MAC");
+g.add(lb);lb.<SOUND>(g); //add listener to listbox
+//add items to combobox
+cb.add("CDOLLAR");
+cb.add("JAVA");
+cb.add("JDOLLAR");
+cb.add("C");
+cb.add("MAC");
+g.add(cb);cb.<SOUND>(g); //add listener to combobox
+g.<SIZE>(500,700); //set size of graphics frame
+g.<FLOWLAYOUT> //set flowlayout
+g.<VISIBLE=TRUE> //set frame to be visible
+}
+Shared class abrpaint <--- GUI1
+{
+<PAINT> //call paintmethod
+{
+<DRAWTEXT>("CHOOSEN CHOICE is"+s,400,500); //draw string at coordinates 400,500
+<RECT>(20,10,100,60); //drow a rect
+}
+}
+}
+%>
+?>
+CDOLLAR Networking
+-------------------------------------
+N/w are essential to our life. Intenet is born due to networking and
+A method of Client -server communications
+gives like a house - to house interaction.
+
+CLIENT SERVER PROGRAM
+--------------------------------
+
+<CDollar>
+<IMPORT>
+<%
+class CLIENTSERVER
+{
+public  Shared void  LIB( )
+{
+<CLIENT>("WILMIX","1099"); // Declare client and call client and pass hostname and port
+<SERVER>("1099");//Declare server and server and pass portno
+}
+}
+%>
+?>
+OUTPUT:
+-------
+Sat Aug 22 08:52:19 GMT+00:00 2015*CDollar: Connecting to WILMIX on port 1099Waiting for client on
+port 1099...Socket timed out!
+
+
+==================================================================================
+UNIT -6: MISC ,Advanced Concepts
+==================================================================================
+Let us consider a Program to print using WHILE LOOP
+Program -1
+----------
+<CDollar>
+<IMPORT>
+<%
+public class WHILE
+{
+public  Shared void  LIB( )
+{
+int a=0;
+while (a <=10)
+{
+a++;
+CDollar.out.println("value="+a);
+}
+}
+}
+%>
+?>
+Compilation:
+CDollarc WHILE.cdollar
+Output:
+(note: at One time compilation you will get this output in windows platform)
+********************************************************************
+Tue Mar 01 1
+3:30:08 IST 2016*JAS: Error:
+***************************************************
+******************************************
+WHILE Tue Mar 01 13:30:09 IST 2016 CDollar:
+Output: value=1value=2value=3value=4value=5value=6value=7value=8value=9value=10va
+lue=11Error: value=1value=2value=3value=4value=5value=6value=7value=8value=9valu
+e=10value=11
+========================================
+What is Pointers?
+
+Variables that hold memory address are called pointers.
+Why we mainly use Pointers?
+Pointers reduces the length and complexity of the program,
+They increase the execution speed.
+It holds the memmory addres..
+SYNTAX of CDollar Pointers:
+---------------------------------
+{*}<<DATATYPE>> <pointer-name> Pointer<<DATATYPE>>(intialvalue);
+for eg)
+<Str> s ="Life is beautiful";
+{*}<<Str>> l Pointer<<Str>>(s);
+The given above statement will store the string "Life is beautiful"
+in Pointer name l;
+Write a program to store the value in pointers
+--------------------------------------------------------------
+<CDollar>
+<IMPORT>
+<%
+public class WHILE
+{
+public  Shared void  LIB( )
+{
+int a=0;
+{*} l Pointer(0); //store value 0 in pointer name l
+while (a <=10)
+{
+a++;
+l.add(a); // add all the values in pointer
+}
+for (int i = 0; i NOT= l.size(); i = i + 1) // compute the size and perform for loop
+{
+<OBJECT> obj=l.get(i); // ge the value by index i
+CDollar.out.println(" value="+obj+ " "); // print the value
+CDollar.out.println(" ");
+CDollar.out.println(" Address= "+l); // print the memory address..
+}
+}
+}
+%>
+?>
+Compile using this command: CDollarc WHILE.cdollar
+OUTPUT:
+------------
+Array=1Compiling ....
+*************************************************************************************
+********
+Tue Feb 09 19:37:22 GMT+00:00 2016*CDollar: value=0 Address= ptr@187aeca value=1
+Address= ptr@187aeca value=2 Address= ptr@187aeca value=3 Address= ptr@187aeca
+value=4 Address= ptr@187aeca value=5 Address= ptr@187aeca value=6
+Address= ptr@187aeca value=7 Address= ptr@187aeca value=8 Address= ptr@187aeca
+value=9 Address= ptr@187aeca value=10 Address= ptr@187aeca value=11
+Address= ptr@187aeca
+Note: We notice CDollar pointers stores the values at same memory location
+is the greatest Advantage in CDollar Programming...
+What will happen when you use CDollar pointer with ArrayofArray to the
+WHILE.cdollar ->
+CDOLLAR-Main( ) ....?
+CDollarArrays list1 = <NEW> CDollarArray("THINGS ");
+list1.add("1 mat");
+list1.add("2 mouse");
+list1.add("3 pen");
+list1.add("4 coat");
+list1.add("5 printer");
+list1.add("6 laptop");
+list1.Display();
+for (int i1 = 0; i1 NOT= l.size()-1; i1 = i1 + 1)
+{
+<OBJECT> obj1=list1.get(i1);
+CDollar.out.println(" value="+obj1.StringConvert()+ " ");
+CDollar.out.println(" ");
+}
+OUTPUT:
+Compiling ....
+*************************************************************************************
+********
+Tue Feb 09 19:56:37 GMT+00:00 2016*CDollar: value=0 Address= ptr@187aeca value=1
+Address= ptr@187aeca value=2 Address= ptr@187aeca value=3 Address= ptr@187aeca
+value=4 Address= ptr@187aeca value=5 Address= ptr@187aeca value=6
+Address= ptr@187aeca value=7 Address= ptr@187aeca value=8 Address= ptr@187aeca
+value=9 Address= ptr@187aeca value=10 Address= ptr@187aeca value=11
+Address= ptr@187aeca, , , , , , , [{ 1 mat }{ 2 mouse }{ 3 pen }{ 4 coat }{ 5 printer }{ 6 laptop } ]
+value=ThreadINGS value=1 mat value=2 mouse value=3 pen value=4
+coat value=5 printer value=6 laptop
+Note: Again CDollar pointers stores the values at same memory location
+is the greatest Advantage in CDollar Programming...
+Write an example to exchange the Pointer values using functions?
+-------------------------------------------------------------------------------
+<CDollar>
+<IMPORT>
+<%
+public class func
+{
+Shared int a=100; // make the variable as static
+Shared {*} l1 Pointer(a); // declare l1 pointer and assign a value
+Shared int b=10000;
+Shared {*} l2 Pointer(b); // declare l2 pointer and assign a value
+Shared {*} l3 Pointer(0); // declare l1 pointer and assign a initial value
+public  Shared void  LIB( ) throws <EXE>
+{
+int a=0;
+func.exchange(l1,l2); // pass the pointer object to exchange functions...
+CDollar.out.println(""+ l1.get(0)+""+l2.get(0));
+}
+public Shared void exchange(<OBJECT> a,<OBJECT> b) // declare the parameters as
+object
+{
+l3=l1; // assign l3 pointer = l1
+// l3 pointer will point to l1 address
+l1=l2; // assign l1 pointer = l2
+l2=l3; /assign l2 pointer = l3
+}
+}
+%>
+?>
+Output:
+Tue Feb 09 20:20:40 GMT+00:00 2016*CDollar: 10000 100
+Now let us see an example using CDollar Pointers with structures...?
+-----------------------------------------------------------------------------------
+<CDollar>
+<IMPORT>
+<%
+// define a class
+class p<STRUCTURE>eg
+{
+Shared int sno; Shared int m1,m2,m3;
+Shared double avg=0.0;
+p<STRUCTURE>eg(int sno,int m1,int m2,int m3,double avg)
+{
+<IS>.sno=sno;
+<IS>.m1=m1;
+<IS>.m2=m2;
+<IS>.m3=m3;
+<IS>.avg=avg;
+}
+public  Shared void  LIB( )
+{
+sno=11;
+m1=234;
+m2=456;
+m3=656;
+avg=((m1+m2+m3)/3);
+//create a structure and pass the values as arguments
+// to structures..
+p<STRUCTURE>eg s = <NEW> p<STRUCTURE>eg(sno,m1,m2,m3,avg);
+// create an object of a classs
+<STRUCTURE> <<OBJECT>> list = <NEW> <STRUCTURE> <<OBJECT>>(s);
+list.add(s);
+//add the Objects to structures....
+{*} l Pointer(0);
+//compute the size of structures
+for (int i = 0; i NOT= list.size()-1; i = i + 1)
+{
+<OBJECT> el=list.ret(i);
+p<STRUCTURE>eg s1= (p<STRUCTURE>eg)el;
+// add structure values to pointer
+l.add(s1.sno);
+l.add(s1.m1);
+l.add(s1.m2);
+l.add(s1.m3);
+l.add(s1.avg);
+}
+for (int i = 0; i NOT= l.size()-1; i = i + 1)
+{
+CDollar.out.println("LIST= "+l.get(i)+" "); // print the values from pointer
+}
+}
+}
+%>
+?>
+OUTPUT:
+Tue Feb 09 21:01:23 GMT+00:00 2016*CDollar: LIST= 0 LIST= 11 LIST= 234 LIST= 456 LIST= 656
+
+CDOLLAR File Manipulation:
+-----------------------------
+C$ file Manipulation contains
+Insert , Insertrows, retrieve functions ....
+This shortcut functions are mostly used for filemanipulation....
+Now let us see CDollar Program with Security and Filemanipulation?
+<CDollar>
+<IMPORT>=> Import CDollar default packages
+import Securitydb.*; => importing cdollar security package.....
+<%
+public class WHILE
+{
+public  Shared void  LIB( ) throws <EXE>
+{
+int a=0;
+{*} l Pointer(0); => Intialize the pointer to 0.
+while (a <=10)
+{
+a++; //increment a value
+l.add(a); //store the values in pointer
+}
+for (int i = 0; i NOT= l.size(); i = i + 1) // use l.size() to compute pointer size.
+{
+<OBJECT> obj=l.get(i); // get the value of pointer
+CDollar.out.println(" value="+obj+ " "); // print the value
+CDollar.out.println(" ");
+CDollar.out.println(" Address= "+l); // print the address
+CDollar.WDBA.Manipulation.InsertRows(obj.StringConvert(),"wil.txt"); //store the values in
+// wil.txt
+}
+Array list1 = <NEW> Array("THINGS "); // use array of array
+list1.add("1 mat");
+list1.add("2 mouse");
+list1.add("3 pen");
+list1.add("4 coat");
+list1.add("5 printer");
+list1.add("6 laptop");
+list1.Display();
+CDollar.WDBA.Manipulation.insert(list1.get(1),"wil1.txt"); // store array of array objects in
+//wil.txt , this will insert a file new if text is present in wil1.txt
+//it will truncate he text and insert newly...
+// insert function performs replace the text again
+<AList> ar5 = <NEW> <AList>();
+for (int i1 = 1; i1 NOT= list1.size()-1; i1 = i1 + 1)
+{
+<OBJECT> obj1=list1.get(i1);
+CDollar.out.println(" value="+obj1.StringConvert()+ " ");
+CDollar.out.println(" ");
+CDollar.WDBA.Manipulation.InsertRows(obj1.StringConvert(),"wil.txt");
+// Insertrows perform update and insert the text again
+// for eg) if you insert using insertrows 'house is' in wil.txt and if you
+insert using insertrows 'located at caifornia" in wil.txt
+// so the text file contains only "house is located at california" string.
+}
+CDollar.out.println(" OUTPUT from file= "+CDollar.WDBA.Manipulation.retrieve("wil.txt"));
+// retrieve from file wil.txt
+CDollar.out.println(""+CDollar.WDBA.Manipulation.retrieve("wil1.txt"));
+// retrieve from file wil1.txt
+Secure.InsertSecure("wil.sdb", 0,"while","while",CDollar.WDBA.Manipulation.retrieve("wil1.txt"));
+//store the text in wil.sb security file using security.InsertSecure
+so the hackers or any users can't access it.
+CDollar.out.println("Security file contents wil.sdb......");
+Secure.SretreiveSecure("wil.sdb" ,0); //retrieve the contents from security file and print
+it to the //console
+}
+}
+%>
+?>
+OUTPUT:
+-------
+Mon Feb 15 10:51:27 GMT+00:00 2016*CDollar: value=0 Address= ptr@e48e1b value=1
+Address= ptr@e48e1b value=2 Address= ptr@e48e1b value=3 Address= ptr@e48e1b
+value=4 Address= ptr@e48e1b value=5 Address= ptr@e48e1b value=6
+Address= ptr@e48e1b value=7 Address= ptr@e48e1b value=8 Address= ptr@e48e1b
+value=9 Address= ptr@e48e1b value=10 Address= ptr@e48e1b value=11
+Address= ptr@e48e1b, , , , , , , [{ 1 mat }{ 2 mouse }{ 3 pen }{ 4 coat }{ 5 printer }{ 6 laptop } ] value=1
+mat value=2 mouse value=3 pen value=4 coat value=5 printer
+OUTput from file= 012345678910111 mat2 mouse3 pen4 coat5 printer012345678910111 mat2
+mouse3 pen4 coat5 printer012345678910111 mat2 mouse3 pen4 coat5 printer012345678910111 mat2
+mouse3 pen4 coat5 printer012345678910111 mat2 mouse3 pen4 coat5 printer1 mat
+Security file contents wil.sdb......
+<tr><td>1 mat</td>
+==============
+BUCKET
+-------
+Bucket are used to store key,value data, and Generated Random number
+where datatype may be string ,object ,etc.
+SYNTAX:
+----------
+Bucket<DATATYPE> list = <NEW> Bucket<DATATYPE>(<DATATYPEVALUE>);
+list.KeyAdd(<DATATYPEVALUE>);
+list.add(<DATATYPEVALUE>);
+list.RandomAdd();
+list.Display(list);
+Advantages
+----------
+Using Bucket you can also Retrieve the values stored n position.
+Searching and Insertion is fast than other DTS.
+Random Indexing is possible.
+eg) If you store a duplicate value such Random key will be different.
+It also used to add many values.
+EXTEND
+------
+Extend class is used in CDollar since to provide multiple inheritence
+about 100000000 classes . Extends class also list values in methods and
+constructor values.
+Extend means a Bucket contains List of class and it is also
+Behave like Bucket. So it is also one of the Advanced concepts in CDollar.
+SYNTAX:
+--------
+EXTEND <<DATATYPE>> list11 = <NEW> EXTEND <<DATATYPE>> (STRING);
+list.KeyAdd(<DATATYPEVALUE>);
+list.add(<DATATYPEVALUE>);
+list.RandomAdd();
+list.Display(list);
+Advantages:
+It is also used to add many values
+Indexing is possible
+Value can also be list by index and behave like bucket.
+It list only the class value and object value.
+It is stateless.
+PIPE:
+-----
+PIPE is used to maintain stateful state.
+It is used for DataFlow in a Program. We can also add the values,
+Constructor values of one class and other class and display it.
+It also list the values from the Bucket.
+SYNTAX:
+-------
+Pipe <<DATATYPE>> list11 = <NEW> Pipe <<DATATYPE>> (STRING);
+list.KeyAdd(<DATATYPEVALUE>);
+list.add(<DATATYPEVALUE>);
+list.RandomAdd();
+list.Display(list);
+Why we Prefer CDollar for software Field?
+Used in BILLS, Forms ,Reports,Charts, any software project , GRAPHICS to web etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==================================================================================
+
+UNIT -7 :CDOLLAR CODING STANDARDS AND ADVANTAGES OVER OTHER
+PROGRAMMING LANGUAGES
+==================================================================================
+
+
+Coding Standards of CDollar
+------------------------------
+<CDollar>
+<IMPORT>
+<%
+%>
+?>
+Note : <% and %> is used to write class and it's logic.
+ALL Program should Start with <CDollar> means starting of a Program and
+scucceded by <IMPORT>
+to load CDollar packages and ?> Means End of the Program.
+HIDE Unwanted code
+--------------------
+<------ program code ------>
+MAIN Program:
+-------------
+public  Shared void  LIB( ) indicates MAIN Program
+otherwise it will not run the Program
+STATIC BLOCK
+-------------
+Shared means Static keyword.
+Shared will be executed first after that Main program will
+be executed.
+Shared
+{
+}
+{} => This curly braces are mostly used.
+SOME OPERATOR KEYWORDS
+-------------------------
+AND => && in java
+NOT => !
+# => !=
+NEW Keyword
+---------------
+NEW is used to create an instance in memmory.
+Always concenterate on important keyword not need to
+memmorize at all.
+DATATYPES:
+-----------
+int , char, double , float are ordinary keywords of oops
+Programming language like C/JAVA/C#/CDollar.
+STRUCTURES:
+-----------
+Always use Structure DATATYPE to store your data in objects form
+so that it will reduce the storage allocation in memmory.
+for one object it takes only 1 byte of memmory for structures.
+RECYCLE:
+-------
+Always use RECYCLE to make the unwanted object to be garbage collected.
+//
+----
+If you want to describe something about your functions
+use // . Don't use it unnessary at any way.
+Special Characters
+--------------------
+@,$%,^,[] are not allowed in the CDOLLLAR program
+~
+---
+Use Destructor keyword to specify non CDollar resource deletion code to
+be goes when you it..
+Other Things
+-------------
+for loop , if statements, while loop, do while ,
+for each, Switch statements, AutoBoxing , Generics , etc
+are same.
+Did CDollar support pointer?
+-----------------------------------
+YES.
+private LinkedList nextNode =null;
+consider this line ; This line creates a pointer to a class
+LinkedList .
+nextNode=new LinkedList(datum);
+This statements are use to insert first data to Linkedlist
+nextNode.add(datum) is used to insert many data....
+Class Inheritance
+-------------------
+If the Class is using another class variable in that case
+you had to use <--- "extends" backward arrows
+and front arrows --> for implements..
+Implements is used when you use friend function.
+
+CDollar ADvantages over JAVA and other Programming Languages
+----------------------------------------------------------------------------------
+A) CDollar is the combination of JAVA , C/C++, and Advanced OOPS.
+b) CDollar will only accept the shortest attractive syntax.
+c) CDollar also used for construction of any datastructures.
+d) CDollar helps the developers to provide inheritance by not using extends
+keyword
+and call the class in main program when use in linux.
+e) CDOLLAR Solves diamond Problem with multiple Inheritance when used in linux.
+f) It also supports friendly function, pointers , and structures.
+g) CDollar support Virtual memmory and garbage collection.
+h) It is efficient, fast and easy to understand, and it is a OOPS Technology.
+i) CDollar is a High level language.
+j) CDollar is highly portable language
+k) Using CDollar you can create any datastructures as libraries and
+use it in your Application program.
+l) CDollar language is a structured and object programming language.
+m) CDollar has OOPS concepts like JAVA.
+n) CDollar have the concept of Packages,etc.
+o) CDollar have the concept of constructor or destructor and had magic oops concepts.
+p) It Support functions with Default Arguments
+q) It Supports Exception handling
+r) It Support Generic Programming
+s) It have pointer and Nodes..
+t) CDollar is much simpler oops concepts, which leads to faster development and less mental
+overhead.
+u) CDollar is almost always explicitly compiled
+w) CDollar is easy to learn. CDollar was designed to be easy to use and is therefore easy to write,
+compile, debug, and learn than other programming languages.
+CDollar is object-oriented. This allows you to create modular programs and reusable code.
+CDollar is platform-independent.
+x) CDollar creates .wl  and  .exe  or  .dll   files   and  it  can be  used  with   CDollar  main  program   (CWE  EDitor  )   to  create  a  complete  software.
+y) CDollar will compile and run at same time where other technology can't
+do
+z) CDollar is mainly used in complex programming , Billing the
+goods,Graphics,etc
+AA) CDollar is platform independant language
+BB) CDollar is an interactive Technology.
+
+Disadvantages of CDollar Technology
+------------------------------------------------
+a) CDollar doesn't concenterate mostly
+on GUI but mostly on invention of new
+datastructures,OOPS, Advanced OOPS..
+b) CDollar Doesnot concenterated mostly on
+Graphics side...
+c) CDollar doesnot focused on
+cloud computing...
+Note: SO CDOLLAR is a shortest
+programming language in IT sector which
+is mainly focused on security, datastructures,
+,OOPS, Advanced OOPS in software development field only.
+
+FAQS
+------
+A) A C Programmer or any oops developer can easily
+study it....
+
+Note:
+CDollarv.2 ,CDollarv.1 ,CDollarv.3 is not a Version. Cdollarv.3 is a improved compiler.
+CDollarv.3 ,CDC is a compiler and CDollarv.4 is a Translator and translate to
+.wl files and
+CDRUN is responsible for running the CDollar Program.
+
+
+Note:  This  CDOLLAR - Tutorial- EXERCISES   is  a  Practical  Exercises    for CDollar  Programmers  we  can  use  it   in  CDollar   main  program.
+
+
+note:  it is  used in Linux  platform.
