@@ -1,0 +1,298 @@
+DOTEB2.0-JWP
+----------------------
+
+DOTEB2.0-(JWP)    is mostly  used   in  software  development  for  Banking  ,Insurance,etc.
+
+It's   extension  is   .jwp.
+
+Note:  The  WebServer  is  not  opensource.  But  this  tutorial   is  opensource.
+
+
+SYNTAX  for  DOTEB2.0:
+---------------------------------------
+
+
+<JDWEB>
+<PACK>
+
+<%
+<!  JWEB   WEb  Logic  !>
+
+%>
+</JDWEB>
+
+
+
+
+Advantages:
+----------
+
+1) It  is  used  as    DOTEB2.0-JWP-AJAX.  
+
+2)  It  also   used   in Enterprise design  (BMP,CMP, Statelfull session bean,  stateless sesion bean),etc   using  JWP.
+
+3)  It  is   used  for  domains  like  Insurance, Banking,E-Learning, etc.  It  is  Used  with  Angular js,
+etc.
+
+4)  It  also   used  as  a  MVC  pattern
+
+5)  Easy  to  Learn  ,  Focus  , and  use  and  eradicates  lot  of  coding.
+
+6) SAVES   TIME  AND  COST.
+
+7)  It  is   an   Opensource  framework  but    wilmix   cat  server   is  not  opensourced.
+
+8)  It   saves  time   and  cost
+
+9) Use  of  web.xml  and  set  and  get    methods    are avoided.
+
+10)  Controller  ,Model  ,  View   are  User defined. 
+
+11)  You  can   pass   any  type   of   JWEB collections like  AList,  HMap,etc
+
+   so    you  can   get  multiple   values   at    the  same   time   at  View3
+
+so  it   is   one   of    the  best    JWEB   framework.   
+
+12)  You  can   perform  many  number  of   Multiple   submits  on  the     same  page
+
+ie)   one   can    load   many   HTML   forms    in   the  same   page 
+
+by   calling    HTML.displayhtml  function..  is  one   of  the  best  advantage  than  any  other  framework....
+
+13)  This  Framework  also   behave   like  AJAX   and  redirects   to  the  same   page....
+
+14) It  also   used  as   a  common   software   for  software  developemnt.
+
+15)  It  also   used  as  a   Framework..
+
+16) It  is  focused   in Insurance and  Enterprise   domain..
+
+17) It  is  also used  in Async Transcation   with  BankIng...
+
+18)  It   also has  the  Advantages  like  IMF Framework.
+
+but  IMF  framework  is   used  only   in  insurance.
+
+19)  It   is  used    to connect  with  WDBAJ$  Security   database...
+
+20)   It   is   very    fast   to  design  and  use   and  it   is   the  Best  one
+
+compared  to  EJB , JMS , AJAX,JPA.
+
+for  eg)  EJB  is  hard  to  design  for  JAVA  programmers,  where a  DOTEB2.0  let   Users  
+
+ to  write  a  small  piece  of  code.. 
+
+21)  JWP  is   Advanced   than  COM,DCOM of  Dotnet etc.
+
+
+Example-1:
+--------
+
+
+<JDWEB>
+<PACK>
+
+<%
+
+public  class main
+
+{
+
+public void  JWP-Main( )
+
+{
+
+
+
+
+
+
+HTML.displayhtml("bootstrap.htm");
+
+}
+
+} 
+
+
+%>
+</JDWEB>
+
+
+
+
+
+
+
+
+bootstrap.htm
+------------
+
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+  </head>
+<body ng-app="mymodal">
+<div ng-controller="MainCtrl" class="container">
+  <h1>Modal example</h1>
+  <button ng-click="toggleModal()" class="btn btn-default">Open modal</button>
+    
+  <modal title="Login form" visible="showModal">
+    <form role="form">
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" />
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" placeholder="Password" />
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </modal>
+</div>
+<script>
+var mymodal = angular.module('mymodal', []);
+
+mymodal.controller('MainCtrl', function ($scope) {
+    $scope.showModal = false;
+    $scope.toggleModal = function(){
+        $scope.showModal = !$scope.showModal;
+    };
+  });
+
+mymodal.directive('modal', function () {
+    return {
+      template: '<div class="modal fade">' + 
+          '<div class="modal-dialog">' + 
+            '<div class="modal-content">' + 
+              '<div class="modal-header">' + 
+                '<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>' + 
+                '<h4 class="modal-title">{{ title }}</h4>' + 
+              '</div>' + 
+              '<div class="modal-body" ng-transclude></div>' + 
+            '</div>' + 
+          '</div>' + 
+        '</div>',
+      restrict: 'E',
+      transclude: true,
+      replace:true,
+      scope:true,
+      link: function postLink(scope, element, attrs) {
+        scope.title = attrs.title;
+
+        scope.$watch(attrs.visible, function(value){
+          if(value == true)
+            $(element).modal('show');
+          else
+            $(element).modal('hide');
+        });
+
+        $(element).on('shown.bs.modal', function(){
+          scope.$apply(function(){
+            scope.$parent[attrs.visible] = true;
+          });
+        });
+
+        $(element).on('hidden.bs.modal', function(){
+          scope.$apply(function(){
+            scope.$parent[attrs.visible] = false;
+          });
+        });
+      }
+    };
+  });
+</script>
+</body>
+</html>
+
+
+OUTPUT:
+------------
+
+
+
+
+
+
+Example-2:ASYNC  in  banking
+------------------------------------------
+
+
+ <JDWEB>
+<PACK>
+
+<%
+
+public  class  async1  <--- TH
+
+{
+
+
+
+
+ 
+public void  JWP-Main( ) throws  <EXE>
+
+
+{
+async1 a  =  <NEW> async1();
+
+ ASYNC.func[0]="main0";
+ASYNC.func[1]="main1";
+ASYNC.counter=4;
+ASYNC.str="t1";
+ASYNC s1 = <NEW> ASYNC();
+s1.runSync();
+
+ASYNC.str="t2";
+ASYNC s = <NEW> ASYNC();
+s.runSync();
+ASYNC.LOGIC();
+
+ASYNC.counter=4;
+ASYNC.LOGICm("system   has  some  problem");
+ASYNC.LOGICm("system   has  no  problem");
+ASYNC.LOGICm("system   has  medium  problem");
+
+
+}
+
+
+}
+
+
+%>
+</JDWEB>
+
+
+OUTPUT:
+
+
+
+
+
+
+
+When   to  use    JWP?
+
+Although    JWP  is   focused   on  Software  Development
+
+it   will    easily    connect    to  WDBAJ$  Database.
+
+JWP    is   focused   on  Software   Developement, Cloud  computing  ,
+
+and mobile cloud computing.
+
+
+Note:  only  DOTWEB2.0 compiler  and DOTWEb2.0  .exe or  .dll   is permitted 
+
+and libraries  are different  from JDollar(JWEB).
+
