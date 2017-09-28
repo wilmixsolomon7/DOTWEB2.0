@@ -162,3 +162,23 @@ HTML.displayhtml("Register.html");
 %>
 
 </DOTWEB2>
+
+
+What  is    the   Difference  between   JDollar(JWEB)  and DOTWEB2.0 ?
+
+
+
+The  Difference  between   JDollar(JWEB)  and DOTWEB2.0  P.L  is
+==============================================================
+
+A)  DOTWEB2.0  is  used  only  in InternalAdvancedBusiness
+
+where   JDollar(JWEB)    is  used  in   ExternalAdvancedBusiness
+
+b) Big  data with  cloud  computing is  followed...
+
+c)  It  is  stand  alone  technology  and  it  will  not  interact  with  any   technology...
+
+d)  Very  High  Security  and  Very high  prosperity...
+
+
