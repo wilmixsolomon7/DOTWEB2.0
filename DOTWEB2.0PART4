@@ -1,0 +1,103 @@
+
+
+
+DOTWEB4.0
+
+=========
+
+DOTWEB4.0 is otherwise known as DOTWEBPart4 and it is used for datatransfer from
+
+Linux to windows . and it is invented by wilmix jemin j in DOTWEB(JDollar) P.L.
+
+So that Windows DOTWEB2.0  can easily take the data from LInux.
+
+ADVANTAGES
+==========
+
+=> It is otherwise known as HYBRID REMOTE WEBAPPLICATION
+
+=> IT is use for data transfer from one OS to other os.
+
+so that hacker can't understood which LInux type os where the data is stored.
+
+===> It is used for datastore and datatransfer agent.
+
+==> DOTWEB4.0 is used only in Linux platform with VS-OS.
+
+In VS-OS the orginal WDBAJDollar server will run there..
+
+We already know that VS-OS provides high security from hackers
+
+and Virus...
+
+=>> DOTWEB4.0 is used for DATA HIGH SECURITY PURPOSE.
+
+DOTWEB PART2 and PART3 Agent SYNTAX: (use only in Linux Platform)
+
+<%
+
+public class 
+
+{
+
+public void main( ) throws
+
+{
+
+<! DOTWEB LOGIC !>
+
+}
+
+}
+
+%>
+
+DOTWEB PART4 Agent SYNTAX: (use only in Linux Platform)
+
+<%
+
+public class <classname> 
+
+{
+public void main( )  throws <EXE>
+
+{
+
+<! DOTWEB LOGIC !>
+
+}
+
+}
+
+%>
+
+DOTWEB -Agent Program Syntax:
+
+<%
+
+public class <classname> {
+
+
+public void main( )  throws <EXE>
+
+{
+
+DOTWEB.Writeln("DOTWEBAGENTQUERY");
+
+}
+
+}
+
+%>
+
+
+Advantages:
+=============
+
+a) You can pass only query
+
+using DOTWEB.Writeln(QUERY);
+
+B) Use DOTWEB-Agent Program to manipulate the Query.
+
+c) You can call the query and execute and display the query results on same page.
